@@ -6,7 +6,7 @@ function About() {
   return (
     <div className=''>
      
-      <div className="max-w-4xl mt-20 p-16  mx-auto">
+      <div className="max-w-4xl mt-20 p-16  mx-auto bg-white shadow-2xl rounded-xl">
         <p className="text-2xl text-black  md:text-4xl font-bold text-center">
         Hey 👋  
         </p>
@@ -17,6 +17,8 @@ function About() {
       
       
       </div>
+      
+
     </div>
   )
 }
