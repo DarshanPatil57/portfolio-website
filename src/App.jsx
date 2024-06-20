@@ -1,6 +1,8 @@
 import React from "react"
 import Card from "./components/Card"
 import About from "./components/About"
+import Footer from "./components/Footer"
+import Skills from "./components/Skills"
 
 function App() {
 
@@ -9,6 +11,8 @@ function App() {
 
  <Card/>
  <About/>
+ <Skills/>
+ <Footer/>
  </h1>
   )
 }
