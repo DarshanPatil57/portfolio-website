@@ -5,7 +5,7 @@ import { SiJavascript } from 'react-icons/si';
 
 function Skills() {
   return (
-    <div className=' max-w-4xl mx-auto justify-center py-12'>
+    <div className=' max-w-4xl mx-auto justify-center py-4'>
         <p className=' text-2xl text-black  text-center sm:text-4xl pt-4 font-bold'> 
              Tech I Use 
         </p>

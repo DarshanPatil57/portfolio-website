@@ -17,7 +17,7 @@ function Card() {
     </div>
     <div className="text-center md:text-left mt-5 md:mt-0 md:flex-grow">
       <p className="text-2xl sm:text-3xl text-gray-900"> Hi, I'm Darshan Patil</p>
-      <p className="text-sm sm:text-lg text-gray-600 pt-2 px-1 w-auto inline-block">
+      <p className="text-sm sm:text-lg text-gray-600 pt-2  w-auto inline-block">
        A Front-End Developer
       </p>
       <div className="flex  justify-center md:justify-start">
