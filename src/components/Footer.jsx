@@ -24,11 +24,11 @@ function Footer() {
             </a>
 
         </div>
-        {/* <div className="flex align-center justify-center mt-4">
+        <div className="flex align-center justify-center mt-4">
               <p className="text-black mb-4">
-                  Made with <span className = "mr-2" role="img" aria-label="heart">💙 </span>by<a className="text-blue-500 "> Darshan Patil</a>
+                  Made with <span className = "mr-2" role="img" aria-label="heart">🖤</span>by<a className="text-blue-500 "> Darshan Patil</a>
               </p>
-              </div> */}
+              </div>
 
         </div>
   )
