@@ -3,10 +3,11 @@ import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
 import profile from "../images/image.jpg";
+import { Typewriter } from "react-simple-typewriter";
 
 function Card() {
   return (
-    <div className="w-full">
+    <div className="w-full lg:mt-60">
       <div className="flex flex-col md:flex-row justify-center md:justify-between items-center max-w-6xl mx-auto bg-white shadow-2xl rounded-xl p-5">
         <div className="md:order-2 md:ml-5 flex-shrink-0 ">
           <img
@@ -21,7 +22,19 @@ function Card() {
             Hi, I'm Darshan Patil
           </p>
           <p className="text-sm sm:text-lg text-gray-600 pt-2  w-auto inline-block">
-            A Front-End Developer
+            A{" "}
+            <Typewriter
+              words={["Front-End Developer"]}
+              loop={true}
+              cursor
+              cursorStyle="_"
+              typeSpeed={90}
+              deleteSpeed={50}
+              delaySpeed={1000}
+              // onLoopDone={(loopCount) =>
+              //   // console.log(`Completed loop: ${loopCount}`)
+              // }
+            />
           </p>
           <div className="flex  justify-center md:justify-start">
             <a
@@ -46,8 +59,11 @@ function Card() {
               <span className="sr-only">Email</span>
             </a>
           </div>
-          <button className=" p-2 font-semibold rounded-xl transition duration-500 ease-in-out text-black shadow-lg bg-white-600 transform hover:-translate-y-1 hover:scale-110 ...">
-            VIEW RESUME
+          <button className=" px-2 py-2 font-semibold rounded opacity- transition duration-500 ease-in-out bg-black text-white shadow-lg bg-white-600 transform hover:-translate-y-1 hover:scale-100">
+            <a target="_blank" href="https://www.google.com/">
+              {" "}
+              View Resume
+            </a>
           </button>
         </div>
       </div>
@@ -56,3 +72,5 @@ function Card() {
 }
 
 export default Card;
+
+
