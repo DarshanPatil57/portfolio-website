@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
-import profile from "../images/image.jpg";
+import profile from "../assets/images/image.jpg";
 import { Typewriter } from "react-simple-typewriter";
 
 function Card() {

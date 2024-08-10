@@ -31,13 +31,13 @@ function Projects() {
 
   return (
     <>
-      <div className="max-w-4xl mt-20 mx-auto ">
+      <div className="max-w-4xl mt-20 mx-auto">
         <p className="text-2xl text-black  md:text-4xl font-bold text-center underline">
           PRO<span className="text-indigo-800">JECTS</span>
         </p>
       </div>
 
-      <div className="grid grid-cols-1 justify-center sm:grid-cols-2 lg:grid-cols-3 gap-5 p-9 m-3">
+      <div className=" w-full grid grid-cols-1 justify-center sm:grid-cols-1 lg:grid-cols-3 gap-10">
         {projects.map((project) => (
           <div
             key={project.id}

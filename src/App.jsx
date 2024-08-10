@@ -8,8 +8,7 @@ import Projects from "./components/Projects"
 function App() {
 
   return (
- <h1 className=" max-h-screen py-10 px-3 sm:px-5 "> 
-
+ <h1 className=" max-h-screen py-10 px-3 sm:px-5  "> 
  <Card/>
  <About/>
  <Skills/>
@@ -20,3 +19,4 @@ function App() {
 }
 
 export default App
+
