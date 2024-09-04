@@ -14,41 +14,23 @@ function Skills() {
         Technologies
       </p>
       <div className='flex flex-wrap justify-center pt-2'>
-        <div className='flex flex-col w-28 p-5 m-4 overflow-hidden bg-white border rounded-xl sm:w-36'>
-          <FaReact color="#2196f3" className="mx-auto text-3xl" />
-          <p className="mt-4 text-lg font-semibold text-center">
-            React
-          </p>
+        <div className='flex flex-col w-28 p-5 m-4 overflow-hidden bg-white'>
+          <FaReact color="#2196f3" className="mx-auto text-6xl" />
         </div>
-        <div className="flex flex-col w-32 p-5 m-4 overflow-hidden bg-white border rounded-xl sm:w-36">
-          <SiTailwindcss color="#00C0A3" className="mx-auto text-3xl" />
-          <p className="mt-4 text-lg font-semibold text-center">
-            TailwindCSS
-          </p>
+        <div className="flex flex-col w-32 p-5 m-4 overflow-hidden bg-white sm:w-36">
+          <SiTailwindcss color="#00C0A3" className="mx-auto text-6xl" />
         </div>
-        <div className="flex flex-col w-28 p-5 m-4 overflow-hidden bg-white border rounded-xl sm:w-36">
-          <SiJavascript color="#ffdf00" className="mx-auto text-3xl" />
-          <p className="mt-4 text-lg font-semibold text-center">
-            JavaScript
-          </p>
+        <div className="flex flex-col w-28 p-5 m-4 overflow-hidden bg-white  sm:w-36">
+          <SiJavascript color="#ffdf00" className="mx-auto text-6xl" />
         </div>
-        <div className="flex flex-col w-28 p-5 m-4 overflow-hidden bg-white border rounded-xl sm:w-36">
-          <FaHtml5 color="#e34c26" className="mx-auto text-3xl" />
-          <p className="mt-4 text-lg font-semibold text-center">
-            HTML5
-          </p>
+        <div className="flex flex-col w-28 p-5 m-4 overflow-hidden bg-white  sm:w-36">
+          <FaHtml5 color="#e34c26" className="mx-auto text-6xl" />
         </div>
-        <div className="flex flex-col w-28 p-5 m-4 overflow-hidden bg-white border rounded-xl sm:w-36">
-          <FaCss3Alt color="#264de4" className="mx-auto text-3xl" />
-          <p className="mt-4 text-lg font-semibold text-center">
-            CSS3
-          </p>
+        <div className="flex flex-col w-28 p-5 m-4 overflow-hidden bg-white  sm:w-36">
+          <FaCss3Alt color="#264de4" className="mx-auto text-6xl" />
         </div>
-        <div className="flex flex-col w-28 p-5 m-4 overflow-hidden bg-white border rounded-xl sm:w-36">
-          <SiGreensock color="#88CE02" className="mx-auto text-3xl" />
-          <p className="mt-4 text-lg font-semibold text-center">
-            GSAP
-          </p>
+        <div className="flex flex-col w-28 p-5 m-4 overflow-hidden bg-white   sm:w-36">
+          <SiGreensock color="#88CE02" className="mx-auto text-6xl" />
         </div>
       </div>
       
@@ -57,23 +39,14 @@ function Skills() {
         Tools
       </p>
       <div className='flex flex-wrap justify-center pt-2'>
-        <div className="flex flex-col w-28 p-5 m-4 overflow-hidden bg-white border rounded-xl sm:w-36">
-          <FaGitAlt color="#F05032" className="mx-auto text-3xl" />
-          <p className="mt-4 text-lg font-semibold text-center">
-            Git
-          </p>
+        <div className="flex flex-col w-28 p-5 m-4 overflow-hidden bg-white sm:w-36">
+          <FaGitAlt color="#F05032" className="mx-auto text-6xl" />
         </div>
-        <div className="flex flex-col w-28 p-5 m-4 overflow-hidden bg-white border rounded-xl sm:w-36">
-          <FaGithub color="#171515" className="mx-auto text-3xl" />
-          <p className="mt-4 text-lg font-semibold text-center">
-            GitHub
-          </p>
+        <div className="flex flex-col w-28 p-5 m-4 overflow-hidden bg-white sm:w-36">
+          <FaGithub color="#171515" className="mx-auto text-6xl" />
         </div>
-        <div className="flex flex-col w-28 p-5 m-4 overflow-hidden bg-white border rounded-xl sm:w-36">
-          <SiVite color="#646CFF" className="mx-auto text-3xl" />
-          <p className="mt-4 text-lg font-semibold text-center">
-            Vite
-          </p>
+        <div className="flex flex-col w-28 p-5 m-4 overflow-hidden bg-white sm:w-36">
+          <SiVite color="#646CFF" className="mx-auto text-6xl" />
         </div>
       </div>
     </div>
