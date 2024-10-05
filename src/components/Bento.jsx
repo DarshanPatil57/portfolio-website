@@ -122,12 +122,10 @@ const SocialsBlock = () => (
 );
 
 const AboutBlock = () => (
-  <Block className="col-span-12 text-3xl leading-snug">
-    <p>
-    A final-year Computer Science student,
-      <span className="text-zinc-400 p-2">
-      Passionate about front-end development . I enjoy making websites with Html , Css , JavaScript & React Js .
-      I love making them look great and adding fun animations with GSAP to bring them to life . I am actively exploring backend technologies to broaden my skill set.
+  <Block className="col-span-12 w-full">
+    <p className=" font-mono text-2xl text-start">
+    I'm a final year Computer Science student
+      <span className="text-zinc-400">, Passionate about front-end development.I enjoy making websites with HTML,CSS,JavaScript & React Js. I love making them look great and adding fun animations with GSAP to bring them to life. I'm actively learning backend technologies to enhance my skill set.
       </span>
     </p>
   </Block>
